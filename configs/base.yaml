@@ -1,0 +1,37 @@
+# Shared configuration for both ART and Agent Lightning training
+model:
+  name: "Qwen/Qwen3-4B"
+  fallback: "Qwen/Qwen2.5-7B"
+  max_tokens: 1024
+  temperature: 0.7
+
+agent:
+  max_turns: 15
+  style: "react"
+
+tau_bench:
+  domain: "retail"
+  user_model: "gpt-4"
+  splits:
+    train: "train"
+    test: "test"
+
+eval:
+  trials_per_task: 4
+  metrics:
+    - "pass@1"
+    - "pass@4"
+
+reward:
+  type: "binary"  # "binary" or "graded"
+  binary:
+    pass: 1.0
+    fail: 0.0
+
+rollout_budget: 8000
+
+seed: 42
+
+wandb:
+  project: "agentic-rl-poc"
+  enabled: true

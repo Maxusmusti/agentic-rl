@@ -1,0 +1,20 @@
+# Hardware configuration for 2-GPU setup
+
+hardware:
+  gpus: 2
+  gpu_type: "generic"
+
+art:
+  concurrent_rollouts: 16
+  vllm_tensor_parallel: false
+  # GPU 0: vLLM inference, GPU 1: training
+  cuda_visible_devices: "0,1"
+
+agl:
+  n_gpus_per_node: 2
+  nnodes: 1
+  n_runners: 4
+  param_offload: true
+  optimizer_offload: true
+  gpu_memory_utilization: 0.5
+  train_batch_size: 8

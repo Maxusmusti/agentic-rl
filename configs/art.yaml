@@ -1,0 +1,24 @@
+# ART (OpenPipe) GRPO training configuration
+# Inherits from base.yaml
+
+training:
+  framework: "art"
+  learning_rate: 1.0e-5
+  group_size: 8  # rollouts per scenario (GRPO)
+  num_iterations: 50
+  max_grad_norm: 0.1
+
+  lora:
+    alpha: 8
+
+  vllm:
+    gpu_memory_utilization: 0.75
+
+  backend:
+    type: "local"
+    in_process: true
+    path: "./.art"
+
+  art_model:
+    name: "qwen3-4b-taubench"
+    project: "agentic-rl-poc"

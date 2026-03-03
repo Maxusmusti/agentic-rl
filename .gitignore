@@ -1,0 +1,40 @@
+# Virtual environments
+venv-art/
+venv-agl/
+.venv/
+
+# ART artifacts (large model checkpoints)
+.art/
+.art-full/
+unsloth_compiled_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Tau-bench data (cloned separately)
+data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+agentops.log
+
+# Pytest
+.pytest_cache/
+
+# Temporary
+/tmp/
+*.tmp

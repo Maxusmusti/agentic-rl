@@ -1,0 +1,20 @@
+# Hardware configuration for 8x H100 80GB setup
+
+hardware:
+  gpus: 8
+  gpu_type: "H100"
+  vram_per_gpu_gb: 80
+
+art:
+  concurrent_rollouts: 64
+  vllm_tensor_parallel: true
+  cuda_visible_devices: "0,1,2,3,4,5,6,7"
+
+agl:
+  n_gpus_per_node: 8
+  nnodes: 1
+  n_runners: 8
+  param_offload: false
+  optimizer_offload: false
+  gpu_memory_utilization: 0.6
+  train_batch_size: 32

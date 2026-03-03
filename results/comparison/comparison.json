@@ -1,0 +1,28 @@
+{
+  "baseline": {
+    "pass_at_1": 0.175,
+    "pass_at_k": 0.2791666666666667,
+    "mean_reward": 0.175
+  },
+  "art": {
+    "name": "ART (OpenPipe)",
+    "training_time_s": 928.5561363697052,
+    "peak_vram_mb": 0,
+    "total_rollouts": 60,
+    "final_train_reward": 0.15,
+    "post_pass_at_1": 0.35,
+    "post_pass_at_k": 0.39166666666666666,
+    "post_mean_reward": 0.35,
+    "avg_turns": 11.125,
+    "pass_at_1_improvement": 0.175,
+    "rollouts_per_second": 0.06461644875298198
+  },
+  "agl": {
+    "name": "Agent Lightning (Microsoft)",
+    "training_time_s": 630,
+    "peak_vram_mb": 0,
+    "total_rollouts": 0,
+    "final_train_reward": 0,
+    "rollouts_per_second": 0.0
+  }
+}

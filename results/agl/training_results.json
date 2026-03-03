@@ -1,0 +1,15 @@
+{
+  "framework": "agl",
+  "base_model": "Qwen/Qwen3-4B",
+  "status": "rollouts_completed_training_blocked",
+  "total_rollouts_executed": 93,
+  "rollouts_with_spans": 93,
+  "rollouts_with_triplets": 0,
+  "training_steps_completed": 0,
+  "n_runners": 4,
+  "n_gpus": 8,
+  "learning_rate": 1e-6,
+  "total_time_seconds": 630,
+  "reward_history": [],
+  "notes": "Agent rollouts executed successfully on tau-bench via AgentGymEnv with prompt-based tool calling. Spans were collected per rollout. However, VERL training pipeline could not form training batches because LlmProxyTraceToTriplet requires prompt/response token IDs in specific span attributes that the LiteLLM proxy does not populate for multi-turn tool-calling conversations. VERL was designed for single-turn text generation RL; multi-turn tool-calling agents require deeper proxy integration to capture per-turn token IDs."
+}

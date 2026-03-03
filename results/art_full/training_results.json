@@ -1,0 +1,30 @@
+{
+  "framework": "art",
+  "base_model": "Qwen/Qwen3-4B",
+  "num_iterations": 7,
+  "total_planned_iterations": 15,
+  "group_size": 8,
+  "tasks_per_iter": 20,
+  "total_train_tasks": 74,
+  "learning_rate": 1e-05,
+  "concurrency": 16,
+  "reward_history": [
+    0.06875,
+    0.175,
+    0.1875,
+    0.20625,
+    0.29375,
+    0.1375
+  ],
+  "timing_history": [
+    2699.256186246872,
+    2724.8037436008453,
+    2428.6079025268555,
+    2462.2396352291107,
+    2770.880650281906,
+    2648.334002494812
+  ],
+  "total_time_seconds": 15734.124307632446,
+  "total_rollouts": 1120,
+  "final_mean_reward": 0.1375
+}

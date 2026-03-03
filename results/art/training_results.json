@@ -1,0 +1,20 @@
+{
+  "framework": "art",
+  "base_model": "Qwen/Qwen3-4B",
+  "num_iterations": 3,
+  "group_size": 4,
+  "learning_rate": 1e-05,
+  "reward_history": [
+    0.1,
+    0.15,
+    0.15
+  ],
+  "timing_history": [
+    321.07056403160095,
+    307.61794257164,
+    299.8674228191376
+  ],
+  "total_time_seconds": 928.5561363697052,
+  "total_rollouts": 60,
+  "final_mean_reward": 0.15
+}

@@ -1,0 +1,68 @@
+{
+  "pass_at_1": 0.3,
+  "pass_at_k": 0.3,
+  "mean_reward": 0.3,
+  "avg_turns": 9.0,
+  "num_tasks": 5,
+  "total_trials": 10,
+  "wall_clock_seconds": 350.3759431838989,
+  "peak_vram_mb": 0.0,
+  "rollouts_per_second": 0.0,
+  "per_task": [
+    {
+      "task_id": "5",
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "mean_reward": 0.0,
+      "avg_turns": 8.0,
+      "trials": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task_id": "9",
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "mean_reward": 0.0,
+      "avg_turns": 8.0,
+      "trials": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task_id": "12",
+      "pass_at_1": 1.0,
+      "pass_at_k": 1.0,
+      "mean_reward": 1.0,
+      "avg_turns": 6.0,
+      "trials": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task_id": "17",
+      "pass_at_1": 0.5,
+      "pass_at_k": 0.5,
+      "mean_reward": 0.5,
+      "avg_turns": 8.5,
+      "trials": [
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "task_id": "18",
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "mean_reward": 0.0,
+      "avg_turns": 14.5,
+      "trials": [
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

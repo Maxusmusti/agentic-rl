@@ -1,0 +1,143 @@
+{
+  "pass_at_1": 0.325,
+  "pass_at_k": 0.5291666666666667,
+  "mean_reward": 0.325,
+  "avg_turns": 11.75,
+  "num_tasks": 10,
+  "total_trials": 40,
+  "wall_clock_seconds": 2192.9453938007355,
+  "peak_vram_mb": 0.0,
+  "rollouts_per_second": 0.01824030826899589,
+  "per_task": [
+    {
+      "task_id": "5",
+      "pass_at_1": 0.25,
+      "pass_at_k": 0.75,
+      "mean_reward": 0.25,
+      "avg_turns": 13.25,
+      "trials": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "task_id": "9",
+      "pass_at_1": 0.5,
+      "pass_at_k": 0.9166666666666666,
+      "mean_reward": 0.5,
+      "avg_turns": 13.25,
+      "trials": [
+        1.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task_id": "12",
+      "pass_at_1": 0.25,
+      "pass_at_k": 0.75,
+      "mean_reward": 0.25,
+      "avg_turns": 12.0,
+      "trials": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "task_id": "17",
+      "pass_at_1": 0.75,
+      "pass_at_k": 0.9583333333333334,
+      "mean_reward": 0.75,
+      "avg_turns": 6.5,
+      "trials": [
+        1.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "task_id": "18",
+      "pass_at_1": 0.5,
+      "pass_at_k": 0.9166666666666666,
+      "mean_reward": 0.5,
+      "avg_turns": 12.0,
+      "trials": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "task_id": "26",
+      "pass_at_1": 1.0,
+      "pass_at_k": 1.0,
+      "mean_reward": 1.0,
+      "avg_turns": 11.75,
+      "trials": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "task_id": "27",
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "mean_reward": 0.0,
+      "avg_turns": 9.5,
+      "trials": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task_id": "32",
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "mean_reward": 0.0,
+      "avg_turns": 12.75,
+      "trials": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task_id": "33",
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "mean_reward": 0.0,
+      "avg_turns": 13.75,
+      "trials": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "task_id": "36",
+      "pass_at_1": 0.0,
+      "pass_at_k": 0.0,
+      "mean_reward": 0.0,
+      "avg_turns": 12.75,
+      "trials": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

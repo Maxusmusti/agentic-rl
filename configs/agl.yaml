@@ -1,0 +1,55 @@
+# Agent Lightning VERL training configuration
+# Inherits from base.yaml
+
+training:
+  framework: "agl"
+
+  algorithm:
+    adv_estimator: "grpo"
+    use_kl_in_reward: false
+
+  data:
+    train_batch_size: 32
+    max_prompt_length: 4096
+    max_response_length: 2048
+
+  actor:
+    ppo_mini_batch_size: 32
+    ppo_micro_batch_size_per_gpu: 4
+    learning_rate: 1.0e-6
+    use_kl_loss: false
+    entropy_coeff: 0
+    clip_ratio_low: 0.2
+    clip_ratio_high: 0.28
+    fsdp:
+      param_offload: false
+      optimizer_offload: false
+
+  rollout:
+    tensor_model_parallel_size: 1
+    n: 8  # rollout group size
+    log_prob_micro_batch_size_per_gpu: 4
+    multi_turn_format: "hermes"
+    engine: "vllm"
+    gpu_memory_utilization: 0.6
+
+  ref:
+    log_prob_micro_batch_size_per_gpu: 8
+    fsdp:
+      param_offload: true
+
+  trainer:
+    n_runners: 8
+    val_before_train: true
+    critic_warmup: 0
+    save_freq: 32
+    test_freq: 16
+    total_epochs: 2
+    logger:
+      - "console"
+      - "wandb"
+
+  trace_aggregator:
+    level: "trajectory"
+    trajectory_max_prompt_length: 4096
+    trajectory_max_response_length: 8192
