@@ -1,0 +1,10 @@
+{
+  "label": "post-training",
+  "model_name": "toucan-trained",
+  "num_samples": 500,
+  "full_match_accuracy": 0.382,
+  "name_match_accuracy": 0.686,
+  "no_tool_call_rate": 0.314,
+  "mean_reward": 0.534,
+  "wall_clock_seconds": 73.96382927894592
+}

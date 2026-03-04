@@ -38,3 +38,4 @@ agentops.log
 # Temporary
 /tmp/
 *.tmp
+.art-toucan/

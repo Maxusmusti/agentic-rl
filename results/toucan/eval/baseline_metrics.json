@@ -1,0 +1,10 @@
+{
+  "label": "baseline",
+  "model_name": "Qwen/Qwen3-4B",
+  "num_samples": 500,
+  "full_match_accuracy": 0.314,
+  "name_match_accuracy": 0.482,
+  "no_tool_call_rate": 0.518,
+  "mean_reward": 0.398,
+  "wall_clock_seconds": 66.45023155212402
+}
