@@ -1,0 +1,46 @@
+{
+  "framework": "art",
+  "agent": "langgraph",
+  "dataset": "toucan",
+  "base_model": "Qwen/Qwen3-4B",
+  "num_iterations": 8,
+  "total_planned_iterations": 15,
+  "group_size": 8,
+  "tasks_per_iter": 100,
+  "learning_rate": 1e-05,
+  "concurrency": 32,
+  "reward_history": [
+    0.4475,
+    0.4525,
+    0.514375,
+    0.52375,
+    0.4525,
+    0.47625,
+    0.63125,
+    0.58375
+  ],
+  "full_match_history": [
+    0.35,
+    0.33375,
+    0.41875,
+    0.39875,
+    0.35375,
+    0.34875,
+    0.50375,
+    0.425
+  ],
+  "timing_history": [
+    457.4254660606384,
+    226.30220437049866,
+    243.12864923477173,
+    257.3926091194153,
+    354.2052323818207,
+    220.65050864219666,
+    212.00496125221252,
+    205.7609157562256
+  ],
+  "total_time_seconds": 2176.8733291625977,
+  "total_rollouts": 6400,
+  "final_mean_reward": 0.58375,
+  "final_full_match": 0.425
+}
