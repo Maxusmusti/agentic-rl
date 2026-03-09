@@ -1,0 +1,10 @@
+{
+  "peak_gpu_mb": 75683,
+  "peak_gpu_gib": 73.9,
+  "mem_after_vllm_mb": 75657,
+  "mem_after_rollouts_mb": 75659,
+  "mem_after_train_mb": 75683,
+  "gpu": "H100 80GB",
+  "model": "Qwen/Qwen3-4B",
+  "gpu_memory_utilization": 0.45
+}

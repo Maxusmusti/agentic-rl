@@ -1,0 +1,62 @@
+[
+  {
+    "model": "Qwen/Qwen3-8B",
+    "quantization": "bf16",
+    "seq_len": 1024,
+    "params_b": 8.2,
+    "trainable_m": 43.6,
+    "mem_model_gib": 15.31,
+    "mem_forward_gib": 16.09,
+    "mem_backward_gib": 16.09,
+    "peak_alloc_gib": 16.18,
+    "peak_reserved_gib": 16.84,
+    "vllm_est_min_gib": 18.3,
+    "total_min_gpu_gib": 20.0,
+    "status": "ok"
+  },
+  {
+    "model": "Qwen/Qwen3-14B",
+    "quantization": "bf16",
+    "seq_len": 1024,
+    "params_b": 14.8,
+    "trainable_m": 64.2,
+    "mem_model_gib": 27.59,
+    "mem_forward_gib": 28.47,
+    "mem_backward_gib": 28.47,
+    "peak_alloc_gib": 28.84,
+    "peak_reserved_gib": 29.1,
+    "vllm_est_min_gib": 30.6,
+    "total_min_gpu_gib": 33.0,
+    "status": "ok"
+  },
+  {
+    "model": "Qwen/Qwen3-14B",
+    "quantization": "4bit",
+    "seq_len": 1024,
+    "params_b": 8.6,
+    "trainable_m": 64.2,
+    "mem_model_gib": 12.99,
+    "mem_forward_gib": 12.99,
+    "mem_backward_gib": 12.99,
+    "peak_alloc_gib": 12.99,
+    "peak_reserved_gib": 13.87,
+    "vllm_est_min_gib": 16.0,
+    "total_min_gpu_gib": 18.0,
+    "status": "ok"
+  },
+  {
+    "model": "Qwen/Qwen3-32B",
+    "quantization": "4bit",
+    "seq_len": 1024,
+    "params_b": 17.3,
+    "trainable_m": 134.2,
+    "mem_model_gib": 23.55,
+    "mem_forward_gib": 23.55,
+    "mem_backward_gib": 23.55,
+    "peak_alloc_gib": 23.55,
+    "peak_reserved_gib": 37.75,
+    "vllm_est_min_gib": 26.6,
+    "total_min_gpu_gib": 40.0,
+    "status": "ok"
+  }
+]

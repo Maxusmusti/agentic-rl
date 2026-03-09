@@ -39,3 +39,6 @@ agentops.log
 /tmp/
 *.tmp
 .art-toucan/
+.art-toucan-langgraph/
+.art-toucan-32b/
+.art-profile/
