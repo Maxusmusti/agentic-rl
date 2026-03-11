@@ -1,0 +1,25 @@
+{
+  "framework": "art",
+  "agent": "langgraph",
+  "observability": "langfuse",
+  "dataset": "toucan",
+  "base_model": "Qwen/Qwen3-4B",
+  "num_iterations": 1,
+  "total_planned_iterations": 1,
+  "group_size": 8,
+  "tasks_per_iter": 5,
+  "learning_rate": 1e-05,
+  "reward_history": [
+    0.4125
+  ],
+  "full_match_history": [
+    0.2
+  ],
+  "timing_history": [
+    33.752761363983154
+  ],
+  "total_time_seconds": 33.75276303291321,
+  "total_rollouts": 40,
+  "final_mean_reward": 0.4125,
+  "langfuse_host": "http://localhost:3000"
+}

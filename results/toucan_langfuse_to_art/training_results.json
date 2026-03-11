@@ -1,0 +1,13 @@
+{
+  "framework": "art",
+  "agent": "langgraph",
+  "trajectory_source": "langfuse",
+  "dataset": "toucan",
+  "base_model": "Qwen/Qwen3-4B",
+  "num_iterations": 1,
+  "reward_history": [
+    0.440625
+  ],
+  "total_time_seconds": 59.829943895339966,
+  "pipeline": "LangGraph \u2192 Langfuse \u2192 ART"
+}

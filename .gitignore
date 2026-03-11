@@ -42,3 +42,5 @@ agentops.log
 .art-toucan-langgraph/
 .art-toucan-32b/
 .art-profile/
+.art-toucan-lf2art/
+.art-toucan-lglf/
